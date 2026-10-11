@@ -3,6 +3,7 @@ body{
     margin:0;
     background-color:white;
     color:black;
+    margin-left: 20px;
 }
 header{
     background-color:green;
@@ -11,9 +12,60 @@ header{
     padding:25px;
 }
 section{
-    background-color:white;
-    margin:10px auto;
+    background-color:#dcdcdc;
+    margin:20px auto;
     padding:15px;
-    width:90%;
+    width:100%;
+    border-left: 5px solid #2e7d32;
     box-shadow:0 0 5px #ccc;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+s
+table {
+    width:100%;
+    border-collapse: collapse;
+    margin border-top: 10px;
+    margin-left:20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+}
+form{
+    margin-left: 20px;
+
+}
+.button{
+    background-color: #2e7d32;
+    color: white;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+textarea{
+    height: 60px;
+    width: 100%;
+    
+}
+footer{
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+
 }
